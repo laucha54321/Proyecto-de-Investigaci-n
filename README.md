@@ -115,3 +115,21 @@ Requiere de una definición clara de la función de aptitud, que podría ser com
 El proceso evolutivo puede ser costoso en términos de tiempo de cómputo, especialmente para grandes poblaciones o terrenos muy complejos.
 
 Este enfoque, si bien es más lento que un algoritmo de generación fractal tradicional, tiene el potencial de generar terrenos mucho más adaptativos y específicos según el criterio de optimización que utilices.
+
+## 🧩 Situación problemática:
+"En muchas áreas de investigación ambiental y territorial, como la planificación ecológica o los estudios sobre el cambio climático, se requieren simulaciones de terrenos realistas para probar modelos sobre erosión, escorrentía o distribución de recursos. Sin embargo, los datos reales del terreno pueden ser escasos, costosos de obtener o limitados a ciertas regiones. Por ello, surge la necesidad de generar terrenos sintéticos que imiten las propiedades estadísticas y geomorfológicas del terreno natural. Los algoritmos fractales como Perlin Noise permiten crear este tipo de simulaciones, pero el ajuste manual de sus parámetros suele ser poco controlado, y no garantiza realismo o utilidad para el análisis ambiental."
+
+## ❓ Problema de investigación:
+"¿Cómo generar terrenos sintéticos realistas, mediante algoritmos fractales como Perlin Noise, optimizando sus parámetros con algoritmos genéticos para simular entornos naturales adecuados para estudios ambientales, sin depender de datos geográficos reales?"
+
+## 🌱 Aplicación concreta (ejemplo de enfoque):
+Simulación de terrenos fractales para modelar escorrentía superficial y erosión en zonas sin datos geográficos.
+
+Aquí, el terreno generado artificialmente (mediante Perlin Noise con parámetros optimizados por AG) se usa para simular cómo fluye el agua sobre diferentes tipos de relieve.
+
+Podrías analizar cómo los cambios en la "rugosidad" del terreno afectan el patrón de drenaje o el riesgo de erosión.
+
+El análisis se basaría en la geometría del terreno generado, observando patrones de ruido y fractalidad.
+
+## 🧠 ¿Por qué fractales?
+Los terrenos naturales presentan auto-similitud y complejidad multiescala, propiedades características de los fractales. Usar Perlin Noise u otros algoritmos fractales permite simular esas propiedades de manera sintética, controlada y reproducible.
