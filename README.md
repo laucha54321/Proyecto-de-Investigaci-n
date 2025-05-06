@@ -49,7 +49,7 @@ Este proyecto se publica bajo la Licencia MIT (u otra si aplica). Podés usar, m
 > — *Benoît B. Mandelbrot*
 
 
-##Investigacion Teorica
+## Investigacion Teorica
 1. Fractales y Terrenos:
 Los fractales, como el algoritmo de Perlin Noise o Diamante-Cuadrado, se utilizan comúnmente para generar terrenos naturales. Estos algoritmos crean patrones de ruido que simulan variaciones realistas en el terreno, como montañas, valles y llanuras. Estos terrenos tienen una apariencia auto-similar a diferentes escalas, lo cual es característico de los fractales.
 
